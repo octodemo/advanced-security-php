@@ -2,9 +2,9 @@ name: SL Scan
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     - cron: '18 2 * * 5'
 
